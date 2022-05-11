@@ -1,0 +1,7 @@
+<tipe_data>  <nama_variabel> = <nilai_awal> ;
+int 			number 		= 	1		;
+
+deklarasi dua atau lebih variabel dengan tipe yang sama
+
+int? number1, number2;
+
