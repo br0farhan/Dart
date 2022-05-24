@@ -12,6 +12,7 @@ void main(){
    int volume = volumeKubus(sisi);
   perkenalan(nama);
   print(volume);
+  print('phi ${nilaiPhi()}');
 }
 
 void perkenalan(String nama){
@@ -22,3 +23,9 @@ void perkenalan(String nama){
 int volumeKubus(int sisi){
   return sisi * sisi * sisi;
 }
+
+// Arrow Function
+// tipe namaFungsi(parameter){
+// }
+
+double nilaiPhi() => 3.14;
